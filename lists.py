@@ -1,8 +1,19 @@
-students = ["bob", "jim", "ana"]
+# LISTS
+# Declaring ✅
+# Indexes ✅
+# Accessing ✅
+# Adding (append() & insert()) ✅
+# Deleting (pop()) ✅
 
-students.append("leo")
-students.insert(0, "ted")
-students.insert(2, "nat")
-print(students[0] + ", you're invited")
+#                0        1         2
+chessPieces = ["rook", "knight", "king"]
 
-print(students)
+print(chessPieces[2])           # prints "king"
+
+chessPieces.append("queen")     # adds "queen" to end of list
+
+chessPieces.insert(0, "pawn")   # inserts "pawn" at the 0 index of list
+
+chessPieces.pop()               # deletes the last item in the list
+
+print(chessPieces)              # print out the list
