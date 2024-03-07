@@ -16,4 +16,6 @@ chessPieces.insert(0, "pawn")   # inserts "pawn" at the 0 index of list
 
 chessPieces.pop()               # deletes the last item in the list
 
+chessPieces.remove("rook")      # deletes "rook" from list
+
 print(chessPieces)              # print out the list
