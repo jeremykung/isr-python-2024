@@ -3,7 +3,7 @@
     # - range(start, stop) ✅
     # - range(start, stop, step) ✅
 # 3. min(), max(), sum() ✅
-# 4. Working with lists in loops
+# 4. Working with lists in loops ✅
 
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 
@@ -36,9 +36,14 @@ print(max(straightNums))
 print(min(straightNums))
 print(sum(straightNums))
 
-
+# print each number in colorfulNums doubled
 colorfulNums = [15, 9, 3, 12, 6]
 for number in colorfulNums:
     print(number)
     numberDoubled = number * 2
     print(numberDoubled)
+
+# List Comprehension
+    # - a fast way to write simple for loops
+addOne = [num + 1 for num in colorfulNums]
+print("addOne", addOne)
