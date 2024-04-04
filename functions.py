@@ -80,11 +80,12 @@ greet()
 greet("Olivers")
 
 # Function with return value ("purple")
+# return values mean the function gives you something back
 def giveMeColour():
     return "purple"
 
-
-maxCatcher = "giveMeColour()"
+# the maxCatcher "catches" the value returned by the giveMeColor() function
+maxCatcher = giveMeColour()
 print(maxCatcher)
 
 def add_one(number):
