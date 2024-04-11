@@ -25,8 +25,8 @@ goto(-200,-200)
 # puts the pencil back down
 pendown()
 
-# draw 50 steps forward
-forward(50)
+# draw a half a circle (180 deg) with radius of 20
+circle(20, 180)
 
 # keeps the window open after the drawing is done
 done()
