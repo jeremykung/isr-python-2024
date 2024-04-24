@@ -1,3 +1,13 @@
+# 1. Importing Turtle Functions
+# 2. Drawing
+#   - forward(units)
+#   - left(degrees) / right(degrees)
+#   - goto(x, y)
+#   - circle(radius)
+#   - penup()
+#   - pendown()
+# 3. done() - not closing after drawing
+
 # we are importing a library of functions for drawing
 from turtle import *
 

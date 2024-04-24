@@ -22,6 +22,7 @@ turtle.color('#29e3c1')    # using color hex
 turtle.left(90)
 turtle.forward(100)
 
+# add fill color
 turtle.fillcolor('green')
 turtle.begin_fill()        # start filling
 turtle.forward(100)
